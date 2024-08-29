@@ -251,7 +251,7 @@ function updateHoldBlock() {
     var holdBlockImage = document.getElementById('holdBlockImage');
 
     if (hold_num !== -1) {
-        holdBlockImage.style.backgroundImage = `url('tetris_image/t${hold_num}.png')`;
+        holdBlockImage.style.backgroundImage = `url('./t${hold_num}.png')`;
     } else {
         holdBlockImage.style.backgroundImage = '';
     }
@@ -526,7 +526,7 @@ function updateUpcomingBlocks() {
 
     for (var i = 0; i < upcomingBlockImages.length; i++) {
         if (i < upcomingblocks.length) {
-            upcomingBlockImages[i].style.backgroundImage = `url('tetris_image/t${upcomingblocks[i]}.png')`;
+            upcomingBlockImages[i].style.backgroundImage = `url('./t${upcomingblocks[i]}.png')`;
         } else {
             upcomingBlockImages[i].style.backgroundImage = '';
         }
