@@ -89,25 +89,25 @@ td.num1, td.num2, td.num3, td.num4, td.num5, td.num6, td.num7 {
 }
 
 td.num1 {
-    background-image: url('tetris_image/0.png');
+    background-image: url('./0.png');
 }
 td.num2 {
-    background-image: url('tetris_image/1.png');
+    background-image: url('./1.png');
 }
 td.num3 {
-    background-image: url('tetris_image/2.png');
+    background-image: url('./2.png');
 }
 td.num4 {
-    background-image: url('tetris_image/3.png');
+    background-image: url('./3.png');
 }
 td.num5 {
-    background-image: url('tetris_image/4.png');
+    background-image: url('./4.png');
 }
 td.num6 {
-    background-image: url('tetris_image/5.png');
+    background-image: url('./5.png');
 }
 td.num7 {
-    background-image: url('tetris_image/6.png');
+    background-image: url('./6.png');
 }
 td.num8 {
     background-color: #2f4f4f; /* 짙은 회색 */
