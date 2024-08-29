@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="logoContainer">
+    <img src="tetris_image/tetrislogo.png" alt="Tetris Logo" id="tetrisLogo">
+</div>
+
+<div id="game">
+    <div id="holdContainerWrapper">
+        <div class="label">Hold</div>
+        <div id="holdContainer">
+            <div id="holdBlockImage"></div>
+        </div>
+    </div>
+    
+    <div id="mapContainer"></div>
+    
+    <div id="upcomingBlocksWrapper">
+        <div class="label">Next</div>
+        <div id="upcomingBlocks">
+            <div class="upcomingContainer">
+                <div class="upcomingBlockImage"></div>
+            </div>
+            <div class="upcomingContainer">
+                <div class="upcomingBlockImage"></div>
+            </div>
+            <div class="upcomingContainer">
+                <div class="upcomingBlockImage"></div>
+            </div>
+            <div class="upcomingContainer">
+                <div class="upcomingBlockImage"></div>
+            </div>
+            <div class="upcomingContainer">
+                <div class="upcomingBlockImage"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="statusContainer">
+    <div id="timeDisplay"></div>
+    <div id="linesDisplay"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
